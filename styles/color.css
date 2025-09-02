@@ -1,5 +1,11 @@
 :root {
-  --cv-bg: #fdd6f1;
-  --cv-line: #fb003a;
-  --cv-text: rgb(71, 71, 71);
+    --cv-bg: rgb(254, 231, 248);
+    --cv-line: rgb(192, 0, 0);
+    --cv-text: white;
+    --cv-black: black;
+    --cv-first: rgb(255, 123, 215);
+    --cv-second: rgb(224, 10, 160);
+    --cv-third: rgb(123, 45, 99);
+    --cv-forth: rgb(246, 0, 123);
+    --cv-pink: rgb(255, 177, 216);
 }
