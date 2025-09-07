@@ -1,8 +1,9 @@
 @import url('./color.css');
 @import url('./header.css');
 @import url('./profile.css');
-@import url('./education.css');
-@import url('./skills.css');
+@import url('./link.css');
+@import url('./item.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,24 @@ body {
     color: var(--cv-black);
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: var(--cv-section);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+    color: var(--cv-line);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--cv-line);
+    padding-bottom: 10px;
 }
 
 #root {

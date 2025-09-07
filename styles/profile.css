@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 20px 5px;
 }
 
 .photo-container {
@@ -24,8 +24,12 @@
 
 .name {
     flex: 1;
+    height: 300px;
     min-width: 300px;
     flex-shrink: 1;
+    background-color: var(--cv-section);
+    text-align: center;
+    padding: 100px;
 }
 
 .name h1 {

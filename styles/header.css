@@ -5,13 +5,14 @@
     width: 100%;
     padding: 10px 60px;
     margin-bottom: 15px;
-    border-bottom: 1px solid var(--cv-line);
+    border-bottom: 2px solid var(--cv-line);
     flex-wrap: nowrap;
 }
 
 .contact-item {
     white-space: nowrap;
     margin: 0 10px;
+    font-size: larger;
 }
 
 @media (max-width: 768px) {
@@ -26,6 +27,7 @@
         width: 100%;
         margin: 0;
         padding: 3px 0;
+        font-size: large;
     }
 }
 

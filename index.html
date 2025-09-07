@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Резюме - Виноградова Мария</title>
         <link rel="stylesheet" href="styles/style.css" />
+        <script src="src/tooltips.js"></script>
     </head>
     <body>
         <header class="header">
@@ -12,6 +13,7 @@
             <div class="contact-item">Телефон: +7(906)011-30-73</div>
             <div class="contact-item">Почта: 13.04.mary@gmail.com</div>
         </header>
+
         <section class="profile">
             <div class="photo-container">
                 <img src="/photo.jpg" alt="Фото" />
@@ -21,16 +23,17 @@
                 <h2>Junior Frontend developer</h2>
             </div>
         </section>
+
         <section class="section">
             <h2 class="section-title">ОБРАЗОВАНИЕ</h2>
-            <div class="inf-container">
-                <div class="inf-item">
+            <div class="items-container">
+                <div class="item-card education">
                     <h3>МГУ имени М.В. Ломоносова, механико-математический факультет</h3>
                     <p>кафедра Дифференциальных уравнений</p>
                     <p>Исследовательские интересы: математическое моделирование модных трендов</p>
                     <p>2020-2027 (в настоящее время 5 курс)</p>
                 </div>
-                <div class="inf-item">
+                <div class="item-card education">
                     <h3>Т-Интенсив по JavaSqcript.Часть 1 и 2</h3>
                     <p>лето 2025</p>
                 </div>
@@ -39,59 +42,61 @@
 
         <section class="section">
             <h2 class="section-title">НАВЫКИ</h2>
-            <div class="skills-container">
-                <div class="skill-item front">
-                    HTML
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
+            <div class="items-container">
+                <div class="item-card front">
+                    <h3>Front</h3>
+                    <div class="items-list">
+                        <div class="list-item">HTML</div>
+                        <div class="list-item">CSS</div>
+                        <div class="list-item">JavaScript</div>
+                        <div class="list-item">React</div>
+                    </div>
                 </div>
-                <div class="skill-item front">
-                    CSS
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
+                <div class="item-card extra">
+                    <h3>Extra</h3>
+                    <div class="items-list">
+                        <div class="list-item">Python</div>
+                        <div class="list-item">SQL</div>
+                        <div class="list-item">Node.js</div>
+                    </div>
                 </div>
-                <div class="skill-item front">
-                    JavaScript
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
+                <div class="item-card tools">
+                    <h3>Tools</h3>
+                    <div class="items-list">
+                        <div class="list-item">Figma</div>
+                        <div class="list-item">Git</div>
+                    </div>
                 </div>
-                <div class="skill-item front">
-                    React
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
-                </div>
-            </div>
-
-            <div class="skills-container">
-                <div class="skill-item extra">
-                    Python
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
-                </div>
-                <div class="skill-item extra">
-                    SQL
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
-                </div>
-                <div class="skill-item extra">
-                    Node.js
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
-                </div>
-            </div>
-
-            <div class="skills-container">
-                <div class="skill-item tools">
-                    Figma
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
-                </div>
-                <div class="skill-item tools">
-                    Git
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
+                <div class="item-card languages">
+                    <h3>Languages</h3>
+                    <div class="items-list">
+                        <div class="list-item">Английский (B1)</div>
+                        <div class="list-item">Русский (родной)</div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="skills-container">
-                <div class="skill-item languages">
-                    Английский (B1)
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
+        <section class="section">
+            <h2 class="section-title">Проекты</h2>
+            <div class="items-container">
+                <div class="item-card project">
+                    <div class="items-list">
+                        <a href="https://github.com/Ma-sh-a" class="item-link"
+                            >Ссылка на мой GitHub</a
+                        >
+                    </div>
                 </div>
-                <div class="skill-item languages">
-                    Русский (родной)
-                    <div class="tooltip">Lorem ipsum dolor sit amet.</div>
+                <div class="item-card project">
+                    <h3>Trip-planner</h3>
+                    <div class="items-list">
+                        <a href="https://trip-planner-72x2.vercel.app" class="item-link"
+                            >Ссылка на планнер</a
+                        >
+                        <a href="https://github.com/Ma-sh-a/trip-planner" class="item-link"
+                            >Ссылка на GitHub</a
+                        >
+                    </div>
                 </div>
             </div>
         </section>

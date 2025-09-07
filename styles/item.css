@@ -1,0 +1,147 @@
+.items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-card {
+    background: linear-gradient(to right, rgba(255, 123, 215, 0.1), rgba(224, 10, 160, 0.1));
+    border-left: 4px solid;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    transition: all 0.3s ease;
+}
+
+.item-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.item-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+}
+
+.list-item {
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 0.95em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+/* skills*/
+.front {
+    border-left-color: var(--cv-line);
+}
+
+.front h3 {
+    color: var(--cv-line);
+}
+
+.front.list-item {
+    border-color: var(--cv-line);
+    color: var(--cv-line);
+}
+
+.extra {
+    border-left-color: var(--cv-second);
+}
+.extra h3 {
+    color: var(--cv-second);
+}
+.extra .list-item {
+    border-color: var(--cv-second);
+    color: var(--cv-second);
+}
+
+.tools {
+    border-left-color: var(--cv-third);
+}
+.tools h3 {
+    color: var(--cv-third);
+}
+.tools .list-item {
+    border-color: var(--cv-third);
+    color: var(--cv-third);
+}
+
+.languages {
+    border-left-color: var(--cv-forth);
+}
+.languages h3 {
+    color: var(--cv-forth);
+}
+.languages.list-item {
+    border-color: var(--cv-forth);
+    color: var(--cv-forth);
+}
+
+/* project*/
+.project {
+    border-left-color: var(--cv-line);
+}
+.project h3 {
+    color: var(--cv-third);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .items-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .list-item {
+        text-align: center;
+    }
+
+    .section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    .item-card h3 {
+        font-size: 1.1em;
+    }
+}
+
+/* education*/
+.education {
+    border-left-color: var(--cv-line);
+}
+
+.education h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.education p {
+    margin: 0;
+    font-size: 18px;
+}

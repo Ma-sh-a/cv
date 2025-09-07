@@ -1,0 +1,18 @@
+.item-link {
+    text-decoration: none;
+    color: var(--cv-line);
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border: 1px solid var(--cv-pink);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.item-link:hover {
+    text-decoration: underline;
+    background-color: var(--cv-c);
+    color: var(--cv-text);
+    border-color: var(--cv-c);
+}
